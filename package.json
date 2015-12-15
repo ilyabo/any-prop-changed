@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/teralytics/edge-treasure-chest.git"
+    "url": "git+ssh://git@github.com/ilyabo/any-prop-changed.git"
   },
   "scripts": {
     "dist": "mkdir -p dist  &&  babel src/anyPropChanged.js -o dist/anyPropChanged.js",
