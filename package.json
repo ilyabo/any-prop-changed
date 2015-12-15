@@ -1,6 +1,6 @@
 {
   "name": "any-prop-changed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/anyPropChanged.js",
   "author": "Ilya Boyandin",
   "description": "Utility function for checking whether object props have changed",
