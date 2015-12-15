@@ -1,5 +1,5 @@
 {
-  "name": "anyPropChanged",
+  "name": "any-prop-changed",
   "version": "1.0.0",
   "main": "dist/anyPropChanged.js",
   "author": "Ilya Boyandin",
