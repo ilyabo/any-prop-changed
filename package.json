@@ -10,9 +10,10 @@
     "url": "git+ssh://git@github.com/teralytics/edge-treasure-chest.git"
   },
   "scripts": {
-    "pretest": "mkdir -p dist  &&  babel src/anyPropChanged.js -o dist/anyPropChanged.js",
+    "dist": "mkdir -p dist  &&  babel src/anyPropChanged.js -o dist/anyPropChanged.js",
+    "pretest": "npm run dist",
     "test": "faucet `find test -name 'test/*-test.js'`",
-    "prepublish": "npm run test"
+    "prepublish": "npm run dist"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
