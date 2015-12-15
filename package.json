@@ -1,0 +1,24 @@
+{
+  "name": "anyPropChanged",
+  "version": "1.0.0",
+  "main": "dist/anyPropChanged.js",
+  "author": "Ilya Boyandin",
+  "description": "Utility function for checking whether object props have changed",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teralytics/edge-treasure-chest.git"
+  },
+  "scripts": {
+    "pretest": "mkdir -p dist  &&  babel src/anyPropChanged.js -o dist/anyPropChanged.js",
+    "test": "faucet `find test -name 'test/*-test.js'`",
+    "prepublish": "npm run test"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-plugin-transform-es2015-modules-umd": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "faucet": "0.0.1",
+    "tape": "^4.2.2"
+  }
+}
