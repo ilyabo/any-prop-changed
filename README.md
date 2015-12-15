@@ -2,7 +2,14 @@
 Utility function for checking whether object props have changed
 
 
-## Examples
+## Installation
+
+Add as an npm dependency to your project:
+
+    npm install any-prop-changed --save
+    
+
+## Examples
 
     var anyPropChanged = require('any-prop-changed')
     
